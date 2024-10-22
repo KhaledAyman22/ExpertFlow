@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Team</title>
+    <link href="../../style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex flex-col">
+
+<div id="navBar">
+
+</div>
+
+<div class="container mx-auto mt-10">
+    <h1 class="text-2xl font-bold mb-5">Add a Team</h1>
+    <label for="teamName">Name</label>
+    <input
+            type="text"
+            id="teamName"
+            placeholder="Enter team name"
+            class="border rounded p-2 mb-4 w-full"
+    />
+    <button
+            id="addTeamButton"
+            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+    >
+        Add Team
+    </button>
+    <div id="message" class="mt-4"></div>
+</div>
+
+<script type="module" src="addTeam.ts"></script>
+</body>
+</html>

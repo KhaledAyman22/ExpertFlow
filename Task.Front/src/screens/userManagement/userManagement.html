@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Assignment</title>
+    <link href="../../style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+<div id="navBar">
+
+</div>
+
+<div class="container mx-auto p-4">
+    
+    <h1 class="text-2xl font-bold mb-4">Assign Users to Teams</h1>
+
+    <div id="user-list">
+        <!-- Users will be rendered here -->
+    </div>
+
+    <!-- Pagination controls -->
+    <div class="flex justify-center mt-4">
+        <button id="prev-page" class="w-[7vw] px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Previous</button>
+        <span id="page-indicator" class="mx-4 my-auto"></span>
+        <button id="next-page" class="w-[7vw] px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Next</button>
+    </div>
+</div>
+
+<script type="module" src="userManagement.ts"></script>
+</body>
+</html>
